@@ -1,85 +1,193 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My CV</title>
+  <title>Salvatore Massimo De Stradis CV</title>
   <style>
     /* Add your CSS styles here */
     body {
       font-family: Arial, sans-serif;
     }
-    h1, h2, h3 {
-      font-weight: normal;
-    }
+    /*Container for the whole page*/
     .container {
-      max-width: 800px;
+      display: flex;
+      flex-wrap: wrap;
       margin: 0 auto;
     }
+    /*Left column*/
+    .left-column {
+      width: 25%;
+      background-color: #F5F5DC;
+      padding: 30px;
+    }
+    /*Right column*/
+    .right-column {
+      width: 75%;
+      padding: 30px;
+    }
+    /*Header*/
     .header {
       text-align: center;
+      margin-bottom: 30px;
     }
     .header h1 {
       margin-top: 0;
     }
-    .header h2 {
-      margin-top: 0;
-      font-style: italic;
+    /*Contacts*/
+    .contacts {
+      margin-bottom: 20px;
     }
-    .header img {
-      max-width: 150px;
-      border-radius: 50%;
-    }
-    .header a {
-      color: #000;
-      text-decoration: none;
-    }
-    .content {
-      margin-top: 30px;
-    }
-    .content h2 {
-      margin-top: 0;
-    }
-    .content ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    .content ul li {
-      margin-bottom: 10px;
-    }
-    .content ul li::before {
-      content: "•";
-      color: #000;
-      font-weight: bold;
+    /*Contacts Icon*/
+    .contacts i {
       margin-right: 10px;
+    }
+    /*Skills*/
+    .skills {
+      margin-bottom: 20px;
+    }
+    /*Certifications*/
+    .certifications {
+      margin-bottom: 20px;
+    }
+    /*Work Experiences*/
+    .work-experiences {
+      margin-bottom: 20px;
+    }
+        /*Education*/
+        .education {
+      margin-bottom: 20px;
+    }
+    /*Projects and Awards*/
+    .projects-awards {
+      margin-bottom: 20px;
+    }
+    /*Soft Skills and Interests*/
+    .soft-skills-interests {
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="header">
-      <h1>Your name</h1>
-      <h2>Job title</h2>
-      <img src="your-picture.jpg" alt="Your Picture">
-      <a href="mailto:youremail@example.com">youremail@example.com</a>
+    <div class="left-column">
+      <div class="header">
+        <h1>Salvatore Massimo De Stradis</h1>
+        <p>I’m a Management Engineering master student. In 2020 I obtained a bachelor degree in Industrial Production Engineering with the maximum score after having studied in Barcelona for one year, where I also did an internship in Operations. In the last months i’ve been working as a Consultant for Techedge, involved in different ITC projects for big clients</p>
+      </div>
+      <div class="contacts">
+        <p><i class="fa fa-envelope"></i> salvatoredestradis@outlook.it</p>
+        <p><i class="fa fa-phone"></i> +39 3662425358</p>
+        <p><i class="fa fa-map-marker"></i> Turin</p>
+        <p><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/Salvatore-Massimo-De-Stradis/">Salvatore Massimo De Stradis</a></p>
+      </div>
+      <div class="skills">
+        <h3>Skills</h3>
+        <table>
+          <tr>
+            <td>Programming</td>
+            <td>
+              <ul>
+                <li>Python ○ ○</li>
+                <li>SQL ○ ○ ○</li>
+                <li>C ○ ○</li>
+                <li>HTML/CSS ○ ○ ○</li>
+                <li>LaTeX ○ ○ ○ ○</li>
+                <li>REST APIs ○ ○ ○</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Software & Tools</td>
+            <td>
+              <ul>
+                <li>Office ○ ○ ○ ○</li>
+                <li>Microsoft project ○ ○ ○ ○</li>
+                <li>SAP Ariba ○ ○ ○ ○</li>
+                <li>Postman ○ ○ ○ ○</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Languages</td>
+            <td>
+              <ul>
+                <li>Italiano ○ ○ ○ ○ ○</li>
+                <li>Inglese ○ ○ ○ ○</li>
+                <li>Spagnolo ○ ○ ○</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="certifications">
+        <h3>Certifications</h3>
+        <ul>
+          <li>B2 FIRST certificate English</li>
+          <li>B2 Spanish</li>
+        </ul>
+      </div>
     </div>
-    <div class="content">
-      <h2>Education</h2>
-      <ul>
-        <li>Degree and field of study - Institution Name - Graduation Year</li>
-        <li>Degree and field of study - Institution Name - Graduation Year</li>
-      </ul>
-      <h2>Experience</h2>
-      <ul>
-        <li>Job Title - Company Name - Time Period</li>
-        <li>Job Title - Company Name - Time Period</li>
-      </ul>
-      <h2>Skills</h2>
-      <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-      </ul>
+    <div class="right-column">
+      <div class="work-experiences">
+        <h3>Work Experiences</h3>
+        <ul>
+          <li>
+            <strong>09/22 - on going</strong>
+            <p>Techedge S.P.A. Junior Consultant</p>
+            <p>I’m involved in a series of ITC projects for big clients involving configuration, maintanance and integrations of SAP ARIBA software for online procurement activities. The job involves understanding client’s functional requirements, making and proposing functional analyses and testing solutions</p>
+          </li>
+          <li>
+            <strong>01/19 - 06/19</strong>
+            <p>Derypol S.A. Barcellona Operation Trainee</p>
+            <p>During this internship I had the chance to meet professionals from different areas, like Quality Control, Production, RD e IT, working on inter-functional projects like the implementation of a MRP module and of a LIMS software for Quality and Control.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="education">
+        <h3>Formation</h3>
+        <ul>
+          <li>
+            <strong>On going</strong>
+            <p>Politecnico di Torino Master Degree</p>
+            <p>Management Engineering</p>
+            <p>The master of science course of Management Engineering I’m currently enrolled in is the natural outcome for my Bachelor degree because it allows me to follow classes I’m passionate about, further deepening my knowledge on the managerial and technical aspects of an organization and on the economic and legislative context a company works in.</p>
+          </li>
+          <li>
+            <strong>2017-2020</strong>
+            <p>Politecnico di Torino - UIC Barcellona Bachelor degree</p>
+            <p>Industrial Production Engineering</p>
+            <p>The Industrial Production Engineering Bachelor degree gave me the chance to learn a new language, Spanish, and a new country, Spain, while giving me an all-around knowledge about both technical aspects of firms operations,taught in Turin and managerial and strategical aspects,taught in Barcelona.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="projects-awards">
+        <h3>Projects and Awards</h3>
+        <ul>
+          <li>First place Challenge@PolitobyFirms</li>
+          <p>I’ve partecipated to the challenge proposed by Djungle Studio consisting in the ideation of an innovative product concept for the education of the future.</p>
+          <li>Entrepreneurhip consultant for DROMT (startup)</li>
+          <p>Between 01/22-06/22 i’ve worked at an entrepreneurship projects with DROMT and Politecnico di Torino, analysing and ideating a Business Model for the use of autonomous drones in agriculture monitoring.</p>
+        </ul>
+      </div>
+      <div class="soft-skills-interests">
+        <h3>Soft Skills and Interests</h3>
+        <ul>
+          <li>Leadership</li>
+          <li>Teamwork</li>
+          <li>Management</li>
+          <li>Innovation</li>
+          <li>Operations</li>
+          <li>Finance</li>
+          <li>ProjectManagement</li>
+          <li>Lean methodologies</li>
+          <li>Agile development</li>
+          <li>Startup</li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
 </html>
+
+
+
+
