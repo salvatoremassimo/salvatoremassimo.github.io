@@ -1,0 +1,42 @@
+.card-text{
+    float: right;
+}
+#qualification {
+    width: 100%;
+}
+
+#heading{
+    text-align: center;
+   color: white;
+}
+.card-header{
+    text-align: center;
+    color: white;
+}
+
+#skills {
+    width: 100%;
+
+}
+#heading2{
+    text-align: left;
+    letter-spacing: 7px;
+  
+}
+#experience {
+    width: 100%;
+    }
+#heading3{
+    text-align: center;
+    letter-spacing: 7px;
+}
+.card-header 
+{
+    background-color: #000000;
+    color: white;
+}
+
+body
+{
+    background-color: #C0D4C9;
+}
